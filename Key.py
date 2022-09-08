@@ -125,10 +125,10 @@ lblPS6=Label(tab2, text='Алгоритм для DES, 3DES, AES').place(relx=0, 
 lblPS7=Label(tab2, text='1) Выбрать метод шифрования').place(relx=0, rely=0.6)
 lblPS8=Label(tab2, text='2) Нажать сгенерировать').place(relx=0, rely=0.7)
 
-lblN1=Label(tab3, text='Шифровать те сообщения, размер которых меньше ключа').place(relx=0, rely=0)
+lblN1=Label(tab3, text='Шифровать те сообщения, размер которых меньше ключа (RSA)').place(relx=0, rely=0)
 lblN2=Label(tab3, text='Самый оптимальный ключ 2048 бит').place(relx=0, rely=0.1)
 lblN3=Label(tab3, text='Время генерации ключа примерно от 0.01с до 72с').place(relx=0, rely=0.2)
-lblN4=Label(tab3, text='Файл с закрытым ключем(PrivateKey) секретный!').place(relx=0, rely=0.3)
+lblN4=Label(tab3, text='Файл с закрытым ключем(PrivateKey) секретный!(RSA)').place(relx=0, rely=0.3)
 
 btn1=Button(tab1, text='Сгенерировать', command=f1).place(relx=0.35, rely=0.75)
 btn2=Button(tab0, text='Сгенерировать', command=f0).place(relx=0.35, rely=0.75)
